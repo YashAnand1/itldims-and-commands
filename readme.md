@@ -9,9 +9,9 @@
 
 ## Setup
 - [Install etcd](https://etcd.io/docs/v3.4/install/) and create a single node etcd (locally, if needed) by running the `etcd` command
-- Clone the [itldimscmd repository](https://github.com/yash-anand-fosteringlinux/itldimscmd)
-- In the API directory, 'go run' the [main.go](https://github.com/yash-anand-fosteringlinux/itldims-cmd/blob/main/itldims/main.go) for converting excel to CSV, uploading data to etcd & connecting with the API
-- Run the `itldims` related commands from the cmd directory
+- Clone the [itldims-and-commands](https://github.com/yash-anand-fosteringlinux/itldims-and-commands/) and enter the 'Complete' directory.
+- In the API directory, 'go run' the [main.go](https://github.com/yash-anand-fosteringlinux/itldims-and-commands/blob/main/Complete/etcd-inventory/main.go) for converting excel to CSV, uploading data to etcd & connecting with the API
+- Run the `itldims` and `itldims get` related commands from the itldims directory.
 
 # Workings of the code
 - This code utilises a modifed version of  [main.go](https://github.com/yash-anand-fosteringlinux/itldimscmd/blob/main/api/main.go), where the etcd API url `localhost:8181/servers/` is connected with for displaying all the key-values.
